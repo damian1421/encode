@@ -1,3 +1,11 @@
+#!/data/data/com.termux/files/usr/bash
+
+#Author: l0gg3r
+#Source: https://github.com/damian1421/encode
+#Description: This utility can encode text using BASE64
+
+#Usage: ./encode.sh
+
 clear; echo
 echo Insert text to encode; read text
 echo $text > tmpfile
